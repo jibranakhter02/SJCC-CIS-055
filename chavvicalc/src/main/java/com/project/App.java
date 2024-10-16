@@ -54,3 +54,21 @@ public class App {
             }
         }
     }
+}
+private static void printMenu(double A, double B) {
+    System.out.println("----------------------------------");
+    System.out.println("Chavvi Calc");
+    System.out.println("----------------------------------");
+    System.out.printf("A = %.3f            B = %.3f\n", A, B);
+    System.out.println("----------------------------------");
+    System.out.println("a      Enter a value for A");
+    System.out.println("b      Enter a value for B");
+    System.out.println("+      Add");
+    System.out.println("-      Subtract");
+    System.out.println("*      Multiply");
+    System.out.println("/      Divide");
+    System.out.println("c      clear");
+    System.out.println("q      quit");
+    System.out.println("----------------------------------");
+    System.out.print("Enter a command: ");
+}
