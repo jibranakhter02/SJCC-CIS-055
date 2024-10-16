@@ -1,4 +1,4 @@
-package com.chavvicalc;
+package com.project;
 import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
@@ -54,7 +54,6 @@ public class App {
             }
         }
     }
-}
 private static void printMenu(double A, double B) {
     System.out.println("----------------------------------");
     System.out.println("Chavvi Calc");
@@ -71,4 +70,5 @@ private static void printMenu(double A, double B) {
     System.out.println("q      quit");
     System.out.println("----------------------------------");
     System.out.print("Enter a command: ");
+}
 }
